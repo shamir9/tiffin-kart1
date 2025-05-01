@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiffin Kart - Ghar Ka Khana, Har Din</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #ff9800, #ffc107);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #fff3e0;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ff6f00;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .button {
+      background-color: #ff6f00;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff3e0;
+      color: #666;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #ffe0b2;
+    }
+    img.food-pic {
+      width: 80px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tiffin Kart</h1>
+    <p>Ghar Ka Khana, Har Din - Aligarh's Home-Style Tiffin Service</p>
+  </header>
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+    <a href="#plans">Plans</a>
+    <a href="#areas">Delivery Areas</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Weekly Menu</h2>
+    <p><strong>Veg & Non-Veg Options - Lunch & Dinner</strong></p>
+    <table>
+      <tr><th>Day</th><th>Meal</th><th>Veg</th><th>Non-Veg</th><th>Image</th></tr>
+      <tr><td>Monday</td><td>Lunch</td><td>Aloo Matar, Dal, Roti, Rice</td><td>Egg Curry, Rice, Roti</td><td><img class="food-pic" src="images/aloo_matar.jpg"></td></tr>
+      <tr><td>Monday</td><td>Dinner</td><td>Bhindi Fry, Kadhi, Chapati</td><td>Chicken Curry, Rice</td><td><img class="food-pic" src="images/chicken_curry.jpg"></td></tr>
+      <tr><td>Tuesday</td><td>Lunch</td><td>Rajma, Rice, Chapati</td><td>Keema Matar, Roti</td><td><img class="food-pic" src="images/rajma.jpg"></td></tr>
+      <tr><td>Tuesday</td><td>Dinner</td><td>Aloo Gobhi, Dal, Rice</td><td>Fish Curry, Rice</td><td><img class="food-pic" src="images/fish_curry.jpg"></td></tr>
+      <tr><td>Wednesday</td><td>Lunch</td><td>Mix Veg, Roti, Rice</td><td>Egg Bhurji, Paratha</td><td><img class="food-pic" src="images/mix_veg.jpg"></td></tr>
+      <tr><td>Wednesday</td><td>Dinner</td><td>Chole, Bhature</td><td>Chicken Masala, Roti</td><td><img class="food-pic" src="images/chole.jpg"></td></tr>
+      <tr><td>Thursday</td><td>Lunch</td><td>Dal Tadka, Rice, Salad</td><td>Chicken Biryani</td><td><img class="food-pic" src="images/chicken_biryani.jpg"></td></tr>
+      <tr><td>Thursday</td><td>Dinner</td><td>Kofta Curry, Chapati</td><td>Fish Fry, Roti</td><td><img class="food-pic" src="images/kofta.jpg"></td></tr>
+      <tr><td>Friday</td><td>Lunch</td><td>Sambhar, Rice, Papad</td><td>Chicken Do Pyaza, Roti</td><td><img class="food-pic" src="images/sambhar.jpg"></td></tr>
+      <tr><td>Friday</td><td>Dinner</td><td>Paneer Butter Masala, Roti</td><td>Egg Curry, Rice</td><td><img class="food-pic" src="images/paneer_butter.jpg"></td></tr>
+      <tr><td>Saturday</td><td>Lunch</td><td>Kadhi Pakora, Rice</td><td>Chicken Korma, Paratha</td><td><img class="food-pic" src="images/kadhi_pakora.jpg"></td></tr>
+      <tr><td>Saturday</td><td>Dinner</td><td>Palak Paneer, Roti</td><td>Fish Curry, Rice</td><td><img class="food-pic" src="images/palak_paneer.jpg"></td></tr>
+      <tr><td>Sunday</td><td>Lunch</td><td>Veg Biryani, Raita</td><td>Butter Chicken, Naan</td><td><img class="food-pic" src="images/veg_biryani.jpg"></td></tr>
+      <tr><td>Sunday</td><td>Dinner</td><td>Shahi Paneer, Pulao</td><td>Chicken Fry, Rice</td><td><img class="food-pic" src="images/shahi_paneer.jpg"></td></tr>
+    </table>
+  </section>
+
+  <section id="order">
+    <h2>Order Now</h2>
+    <p>Click below to place your order on WhatsApp.</p>
+    <a class="button" href="https://wa.me/919045349750?text=Hi%20Tiffin%20Kart%2C%20I%20want%20to%20order%20a%20tiffin!">Order on WhatsApp</a>
+  </section>
+
+  <section id="plans">
+    <h2>Subscription Plans</h2>
+    <ul>
+      <li>Weekly Veg: ₹500 | Weekly Non-Veg: ₹600</li>
+      <li>Monthly Veg: ₹1800 | Monthly Non-Veg: ₹2200</li>
+    </ul>
+  </section>
+
+  <section id="areas">
+    <h2>Delivery Areas in Aligarh</h2>
+    <ul>
+      <li>AMU Campus</li>
+      <li>Quarsi</li>
+      <li>Civil Lines</li>
+      <li>Center Point</li>
+      <li>Ramghat Road</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 9045349750</p>
+    <p>📩 Email: tiffinkart@gmail.com</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/919045349750">Click to Chat</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tiffin Kart. All rights reserved.</p>
+  </footer>
+</body>
+</html>
